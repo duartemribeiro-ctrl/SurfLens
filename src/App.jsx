@@ -165,7 +165,7 @@ export default function App() {
           onClick={() => setShowCommunityModal(true)}
           className="text-xs font-semibold px-4 py-2 rounded-full bg-[#05222c] border border-cyan-500/50 text-cyan-400 hover:bg-[#072f3d] transition active:scale-95 cursor-pointer"
         >
-          Comunidade
+          Sobre nós
         </button>
       </header>
 
@@ -178,7 +178,7 @@ export default function App() {
                 Próximas Sessões
               </h1>
               <p className="text-sm text-slate-400">
-                Descubra onde estão os videógrafos e garanta o seu registo.
+              Vê as praias que têm videógrafos confirmados para hoje e para os próximos dias.
               </p>
             </div>
 
@@ -545,7 +545,8 @@ export default function App() {
             </div>
             <h3 className="text-lg font-bold text-white">Comunidade SurfLens</h3>
             <p className="text-xs text-slate-300 leading-relaxed">
-              Ligamos surfistas a videógrafos locais para garantir registos de qualidade nas melhores sessões.
+              Ligamos surfistas a videógrafos locais para garantir registos das tuas sessões e acelerar o teu progresso. Dúvidas ou sugestões? 
+              Fala connosco: @surflens.pt
             </p>
             <button
               onClick={() => setShowCommunityModal(false)}
