@@ -489,7 +489,7 @@ export default function App() {
                 </label>
                 <input
                   type="text"
-                  placeholder="Ex: @duarte ou 912..."
+                  placeholder="Ex: 912000000"
                   value={surferContact}
                   onChange={(e) => setSurferContact(e.target.value)}
                   className="w-full bg-[#060c17] border border-slate-700/80 rounded-2xl px-4 py-3 text-base text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 transition"
